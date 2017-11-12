@@ -1,0 +1,604 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Logging in Dice",
+        "description": "",
+        "id": "logging-dice;logging-in-dice;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 106750877,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Runmode is \"Y\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Y",
+                  "offset": 12
+                }
+              ],
+              "location": "Dice.runmode_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8895095920,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I go to \"loginURL\" on \"Mozilla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginURL",
+                  "offset": 9
+                },
+                {
+                  "val": "Mozilla",
+                  "offset": 23
+                }
+              ],
+              "location": "Dice.i_go_to_on(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 540647189,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter \"search-field-keyword\" as \"Selenium Automation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search-field-keyword",
+                  "offset": 9
+                },
+                {
+                  "val": "Selenium Automation",
+                  "offset": 35
+                }
+              ],
+              "location": "Dice.i_enter_as(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235796089,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter \"search-field-location\" as \"Dallas,TX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search-field-location",
+                  "offset": 9
+                },
+                {
+                  "val": "Dallas,TX",
+                  "offset": 36
+                }
+              ],
+              "location": "Dice.i_enter_as(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5850125392,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on FindJobs  \"FindJob\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FindJob",
+                  "offset": 22
+                }
+              ],
+              "location": "Dice.i_click_on_FindJobs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 360202230,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on JobsPage \"JobsPage2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JobsPage2",
+                  "offset": 21
+                }
+              ],
+              "location": "Dice.i_click_on1(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3982851287,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on contract checkbox \"contract_checkbox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contract_checkbox",
+                  "offset": 30
+                }
+              ],
+              "location": "Dice.i_click_on_contract_checkbox(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4337515932,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on contractw checkbox \"contractWCheckbox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contractWCheckbox",
+                  "offset": 31
+                }
+              ],
+              "location": "Dice.i_click_on_contractw_checkbox(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 104471017896,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on links_on_page \"links_on_page4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "links_on_page4",
+                  "offset": 26
+                }
+              ],
+              "location": "Dice.i_click_on_links_on_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Logging in Dice",
+        "description": "",
+        "id": "logging-dice;logging-in-dice;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7527889,
+              "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is No\n\tat runner.Dice.runmode_is(Dice.java:19)\n\tat ✽.Given Runmode is \"N\"(Dice.feature:7)\n",
+              "status": "pending"
+            },
+            "line": 7,
+            "name": "Runmode is \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "N",
+                  "offset": 12
+                }
+              ],
+              "location": "Dice.runmode_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I go to \"loginURL\" on \"Mozilla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginURL",
+                  "offset": 9
+                },
+                {
+                  "val": "Mozilla",
+                  "offset": 23
+                }
+              ],
+              "location": "Dice.i_go_to_on(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I enter \"search-field-keyword\" as \"Selenium Automation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search-field-keyword",
+                  "offset": 9
+                },
+                {
+                  "val": "Selenium Automation",
+                  "offset": 35
+                }
+              ],
+              "location": "Dice.i_enter_as(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I enter \"search-field-location\" as \"naperville,IL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search-field-location",
+                  "offset": 9
+                },
+                {
+                  "val": "naperville,IL",
+                  "offset": 36
+                }
+              ],
+              "location": "Dice.i_enter_as(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on FindJobs  \"FindJob\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FindJob",
+                  "offset": 22
+                }
+              ],
+              "location": "Dice.i_click_on_FindJobs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I click on JobsPage \"JobsPage2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JobsPage2",
+                  "offset": 21
+                }
+              ],
+              "location": "Dice.i_click_on1(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I click on contract checkbox \"contract_checkbox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contract_checkbox",
+                  "offset": 30
+                }
+              ],
+              "location": "Dice.i_click_on_contract_checkbox(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on contractw checkbox \"contractWCheckbox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contractWCheckbox",
+                  "offset": 31
+                }
+              ],
+              "location": "Dice.i_click_on_contractw_checkbox(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I click on links_on_page \"links_on_page4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "links_on_page4",
+                  "offset": 26
+                }
+              ],
+              "location": "Dice.i_click_on_links_on_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Logging in Dice",
+        "description": "",
+        "id": "logging-dice;logging-in-dice;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1573928,
+              "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is No\n\tat runner.Dice.runmode_is(Dice.java:19)\n\tat ✽.Given Runmode is \"N\"(Dice.feature:7)\n",
+              "status": "pending"
+            },
+            "line": 7,
+            "name": "Runmode is \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "N",
+                  "offset": 12
+                }
+              ],
+              "location": "Dice.runmode_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I go to \"loginURL\" on \"Mozilla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginURL",
+                  "offset": 9
+                },
+                {
+                  "val": "Mozilla",
+                  "offset": 23
+                }
+              ],
+              "location": "Dice.i_go_to_on(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I enter \"search-field-keyword\" as \"Selenium Automation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search-field-keyword",
+                  "offset": 9
+                },
+                {
+                  "val": "Selenium Automation",
+                  "offset": 35
+                }
+              ],
+              "location": "Dice.i_enter_as(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I enter \"search-field-location\" as \"Austin, TX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search-field-location",
+                  "offset": 9
+                },
+                {
+                  "val": "Austin, TX",
+                  "offset": 36
+                }
+              ],
+              "location": "Dice.i_enter_as(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on FindJobs  \"FindJob\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FindJob",
+                  "offset": 22
+                }
+              ],
+              "location": "Dice.i_click_on_FindJobs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I click on JobsPage \"JobsPage2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JobsPage2",
+                  "offset": 21
+                }
+              ],
+              "location": "Dice.i_click_on1(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I click on contract checkbox \"contract_checkbox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contract_checkbox",
+                  "offset": 30
+                }
+              ],
+              "location": "Dice.i_click_on_contract_checkbox(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on contractw checkbox \"contractWCheckbox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contractWCheckbox",
+                  "offset": 31
+                }
+              ],
+              "location": "Dice.i_click_on_contractw_checkbox(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I click on links_on_page \"links_on_page4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "links_on_page4",
+                  "offset": 26
+                }
+              ],
+              "location": "Dice.i_click_on_links_on_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Logging Dice",
+    "description": "\nLogin into Dice and search for jobs",
+    "id": "logging-dice",
+    "keyword": "Feature",
+    "uri": "Dice.feature"
+  }
+]

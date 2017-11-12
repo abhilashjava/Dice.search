@@ -95,7 +95,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Y",
+        "N",
         "Mozilla",
         "Selenium Automation",
         "naperville,IL",
@@ -106,7 +106,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Y",
+        "N",
         "Mozilla",
         "Selenium Automation",
         "Austin, TX",
@@ -199,7 +199,7 @@ formatter.match({
   "location": "Dice.runmode_is(String)"
 });
 formatter.result({
-  "duration": 92358706,
+  "duration": 106750877,
   "status": "passed"
 });
 formatter.match({
@@ -216,7 +216,7 @@ formatter.match({
   "location": "Dice.i_go_to_on(String,String)"
 });
 formatter.result({
-  "duration": 9480791058,
+  "duration": 8895095920,
   "status": "passed"
 });
 formatter.match({
@@ -233,7 +233,7 @@ formatter.match({
   "location": "Dice.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 626885575,
+  "duration": 540647189,
   "status": "passed"
 });
 formatter.match({
@@ -250,7 +250,7 @@ formatter.match({
   "location": "Dice.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 732032470,
+  "duration": 235796089,
   "status": "passed"
 });
 formatter.match({
@@ -263,7 +263,7 @@ formatter.match({
   "location": "Dice.i_click_on_FindJobs(String)"
 });
 formatter.result({
-  "duration": 4068818680,
+  "duration": 5850125392,
   "status": "passed"
 });
 formatter.match({
@@ -276,7 +276,7 @@ formatter.match({
   "location": "Dice.i_click_on1(String)"
 });
 formatter.result({
-  "duration": 399777020,
+  "duration": 360202230,
   "status": "passed"
 });
 formatter.match({
@@ -289,7 +289,7 @@ formatter.match({
   "location": "Dice.i_click_on_contract_checkbox(String)"
 });
 formatter.result({
-  "duration": 3790145137,
+  "duration": 3982851287,
   "status": "passed"
 });
 formatter.match({
@@ -302,7 +302,7 @@ formatter.match({
   "location": "Dice.i_click_on_contractw_checkbox(String)"
 });
 formatter.result({
-  "duration": 4000260917,
+  "duration": 4337515932,
   "status": "passed"
 });
 formatter.match({
@@ -313,4 +313,395 @@ formatter.match({
     }
   ],
   "location": "Dice.i_click_on_links_on_page(String)"
+});
+formatter.result({
+  "duration": 104471017896,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 22,
+  "name": "Logging in Dice",
+  "description": "",
+  "id": "logging-dice;logging-in-dice;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 5,
+      "name": "@login"
+    }
+  ]
+});
+formatter.step({
+  "line": 7,
+  "name": "Runmode is \"N\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "I go to \"loginURL\" on \"Mozilla\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 9,
+  "name": "I enter \"search-field-keyword\" as \"Selenium Automation\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "I enter \"search-field-location\" as \"naperville,IL\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I click on FindJobs  \"FindJob\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "I click on JobsPage \"JobsPage2\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 13,
+  "name": "I click on contract checkbox \"contract_checkbox\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 14,
+  "name": "I click on contractw checkbox \"contractWCheckbox\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 15,
+  "name": "I click on links_on_page \"links_on_page4\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "N",
+      "offset": 12
+    }
+  ],
+  "location": "Dice.runmode_is(String)"
+});
+formatter.result({
+  "duration": 7527889,
+  "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is No\n\tat runner.Dice.runmode_is(Dice.java:19)\n\tat ✽.Given Runmode is \"N\"(Dice.feature:7)\n",
+  "status": "pending"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "loginURL",
+      "offset": 9
+    },
+    {
+      "val": "Mozilla",
+      "offset": 23
+    }
+  ],
+  "location": "Dice.i_go_to_on(String,String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "search-field-keyword",
+      "offset": 9
+    },
+    {
+      "val": "Selenium Automation",
+      "offset": 35
+    }
+  ],
+  "location": "Dice.i_enter_as(String,String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "search-field-location",
+      "offset": 9
+    },
+    {
+      "val": "naperville,IL",
+      "offset": 36
+    }
+  ],
+  "location": "Dice.i_enter_as(String,String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "FindJob",
+      "offset": 22
+    }
+  ],
+  "location": "Dice.i_click_on_FindJobs(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "JobsPage2",
+      "offset": 21
+    }
+  ],
+  "location": "Dice.i_click_on1(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "contract_checkbox",
+      "offset": 30
+    }
+  ],
+  "location": "Dice.i_click_on_contract_checkbox(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "contractWCheckbox",
+      "offset": 31
+    }
+  ],
+  "location": "Dice.i_click_on_contractw_checkbox(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "links_on_page4",
+      "offset": 26
+    }
+  ],
+  "location": "Dice.i_click_on_links_on_page(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "line": 23,
+  "name": "Logging in Dice",
+  "description": "",
+  "id": "logging-dice;logging-in-dice;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 5,
+      "name": "@login"
+    }
+  ]
+});
+formatter.step({
+  "line": 7,
+  "name": "Runmode is \"N\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "I go to \"loginURL\" on \"Mozilla\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 9,
+  "name": "I enter \"search-field-keyword\" as \"Selenium Automation\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "I enter \"search-field-location\" as \"Austin, TX\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I click on FindJobs  \"FindJob\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "I click on JobsPage \"JobsPage2\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 13,
+  "name": "I click on contract checkbox \"contract_checkbox\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 14,
+  "name": "I click on contractw checkbox \"contractWCheckbox\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 15,
+  "name": "I click on links_on_page \"links_on_page4\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "N",
+      "offset": 12
+    }
+  ],
+  "location": "Dice.runmode_is(String)"
+});
+formatter.result({
+  "duration": 1573928,
+  "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is No\n\tat runner.Dice.runmode_is(Dice.java:19)\n\tat ✽.Given Runmode is \"N\"(Dice.feature:7)\n",
+  "status": "pending"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "loginURL",
+      "offset": 9
+    },
+    {
+      "val": "Mozilla",
+      "offset": 23
+    }
+  ],
+  "location": "Dice.i_go_to_on(String,String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "search-field-keyword",
+      "offset": 9
+    },
+    {
+      "val": "Selenium Automation",
+      "offset": 35
+    }
+  ],
+  "location": "Dice.i_enter_as(String,String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "search-field-location",
+      "offset": 9
+    },
+    {
+      "val": "Austin, TX",
+      "offset": 36
+    }
+  ],
+  "location": "Dice.i_enter_as(String,String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "FindJob",
+      "offset": 22
+    }
+  ],
+  "location": "Dice.i_click_on_FindJobs(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "JobsPage2",
+      "offset": 21
+    }
+  ],
+  "location": "Dice.i_click_on1(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "contract_checkbox",
+      "offset": 30
+    }
+  ],
+  "location": "Dice.i_click_on_contract_checkbox(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "contractWCheckbox",
+      "offset": 31
+    }
+  ],
+  "location": "Dice.i_click_on_contractw_checkbox(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "links_on_page4",
+      "offset": 26
+    }
+  ],
+  "location": "Dice.i_click_on_links_on_page(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
 });

@@ -3,7 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
+      <class name="Log4j"/>
+      <class name="runner.Dice"/>
       <class name="runner.TestRunnerWithTestNG"/>
+      <class name="util.WebConnector"/>
+      <class name="runner.TestRunner"/>
     </classes>
   </test> <!-- Default test -->
   <test name="Default test(failed)">

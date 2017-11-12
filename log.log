@@ -1218,3 +1218,15 @@
 12/11/2017 16:16:17 devpinoyLogger Clicking on links_on_page4
 12/11/2017 16:16:43 devpinoyLogger Checking object presence C2H
 12/11/2017 16:17:33 devpinoyLogger Checking object presence crop to crop
+12/11/2017 16:29:59 devpinoyLogger  
+12/11/2017 16:29:59 devpinoyLogger Opening browser Mozilla
+12/11/2017 16:30:03 devpinoyLogger Naviating to https://www.dice.com
+12/11/2017 16:30:08 devpinoyLogger Typing in search-field-keyword
+12/11/2017 16:30:09 devpinoyLogger Typing in search-field-location
+12/11/2017 16:30:09 devpinoyLogger Clicking on FindJob
+12/11/2017 16:30:15 devpinoyLogger Clicking on JobsPage2
+12/11/2017 16:30:15 devpinoyLogger Clicking on contract_checkbox
+12/11/2017 16:30:19 devpinoyLogger Clicking on contractWCheckbox
+12/11/2017 16:30:23 devpinoyLogger Clicking on links_on_page4
+12/11/2017 16:30:49 devpinoyLogger Checking object presence C2H
+12/11/2017 16:31:39 devpinoyLogger Checking object presence crop to crop

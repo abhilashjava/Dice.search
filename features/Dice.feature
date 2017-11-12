@@ -20,4 +20,4 @@ Then I click on links_on_page "links_on_page4"
 |Runmode  |Browser     | JobTitle            	| SearchLocation   | Expected_Result | 
 |  Y      | Mozilla    | Selenium Automation    |  Dallas,TX 	   | success         | 
 |  Y      | Mozilla    | Selenium Automation    |  naperville,IL   | success         | 
-|  Y      | Mozilla    | Selenium Automation    |  Austin, TX 	   | success         | 
+|  N      | Mozilla    | Selenium Automation    |  Austin, TX 	   | success         | 
