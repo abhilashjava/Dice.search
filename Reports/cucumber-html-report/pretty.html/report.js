@@ -199,7 +199,7 @@ formatter.match({
   "location": "Dice.runmode_is(String)"
 });
 formatter.result({
-  "duration": 95627685,
+  "duration": 92358706,
   "status": "passed"
 });
 formatter.match({
@@ -216,7 +216,7 @@ formatter.match({
   "location": "Dice.i_go_to_on(String,String)"
 });
 formatter.result({
-  "duration": 9050655664,
+  "duration": 9480791058,
   "status": "passed"
 });
 formatter.match({
@@ -233,7 +233,7 @@ formatter.match({
   "location": "Dice.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 784403826,
+  "duration": 626885575,
   "status": "passed"
 });
 formatter.match({
@@ -250,7 +250,7 @@ formatter.match({
   "location": "Dice.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 639242781,
+  "duration": 732032470,
   "status": "passed"
 });
 formatter.match({
@@ -263,7 +263,7 @@ formatter.match({
   "location": "Dice.i_click_on_FindJobs(String)"
 });
 formatter.result({
-  "duration": 4095103447,
+  "duration": 4068818680,
   "status": "passed"
 });
 formatter.match({
@@ -276,7 +276,7 @@ formatter.match({
   "location": "Dice.i_click_on1(String)"
 });
 formatter.result({
-  "duration": 346990942,
+  "duration": 399777020,
   "status": "passed"
 });
 formatter.match({
@@ -289,7 +289,7 @@ formatter.match({
   "location": "Dice.i_click_on_contract_checkbox(String)"
 });
 formatter.result({
-  "duration": 3646790227,
+  "duration": 3790145137,
   "status": "passed"
 });
 formatter.match({
@@ -302,7 +302,7 @@ formatter.match({
   "location": "Dice.i_click_on_contractw_checkbox(String)"
 });
 formatter.result({
-  "duration": 4364959550,
+  "duration": 4000260917,
   "status": "passed"
 });
 formatter.match({
@@ -313,409 +313,4 @@ formatter.match({
     }
   ],
   "location": "Dice.i_click_on_links_on_page(String)"
-});
-formatter.result({
-  "duration": 104156114782,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 22,
-  "name": "Logging in Dice",
-  "description": "",
-  "id": "logging-dice;logging-in-dice;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 5,
-      "name": "@login"
-    }
-  ]
-});
-formatter.step({
-  "line": 7,
-  "name": "Runmode is \"Y\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "I go to \"loginURL\" on \"Mozilla\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 9,
-  "name": "I enter \"search-field-keyword\" as \"Selenium Automation\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "I enter \"search-field-location\" as \"naperville,IL\"",
-  "matchedColumns": [
-    3
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "I click on FindJobs  \"FindJob\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "I click on JobsPage \"JobsPage2\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 13,
-  "name": "I click on contract checkbox \"contract_checkbox\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 14,
-  "name": "I click on contractw checkbox \"contractWCheckbox\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
-  "name": "I click on links_on_page \"links_on_page4\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Y",
-      "offset": 12
-    }
-  ],
-  "location": "Dice.runmode_is(String)"
-});
-formatter.result({
-  "duration": 870958,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "loginURL",
-      "offset": 9
-    },
-    {
-      "val": "Mozilla",
-      "offset": 23
-    }
-  ],
-  "location": "Dice.i_go_to_on(String,String)"
-});
-formatter.result({
-  "duration": 8781660473,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "search-field-keyword",
-      "offset": 9
-    },
-    {
-      "val": "Selenium Automation",
-      "offset": 35
-    }
-  ],
-  "location": "Dice.i_enter_as(String,String)"
-});
-formatter.result({
-  "duration": 360833869,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "search-field-location",
-      "offset": 9
-    },
-    {
-      "val": "naperville,IL",
-      "offset": 36
-    }
-  ],
-  "location": "Dice.i_enter_as(String,String)"
-});
-formatter.result({
-  "duration": 545581892,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "FindJob",
-      "offset": 22
-    }
-  ],
-  "location": "Dice.i_click_on_FindJobs(String)"
-});
-formatter.result({
-  "duration": 10961760651,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "JobsPage2",
-      "offset": 21
-    }
-  ],
-  "location": "Dice.i_click_on1(String)"
-});
-formatter.result({
-  "duration": 375547247,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "contract_checkbox",
-      "offset": 30
-    }
-  ],
-  "location": "Dice.i_click_on_contract_checkbox(String)"
-});
-formatter.result({
-  "duration": 3099291791,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "contractWCheckbox",
-      "offset": 31
-    }
-  ],
-  "location": "Dice.i_click_on_contractw_checkbox(String)"
-});
-formatter.result({
-  "duration": 4310297271,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "links_on_page4",
-      "offset": 26
-    }
-  ],
-  "location": "Dice.i_click_on_links_on_page(String)"
-});
-formatter.result({
-  "duration": 104134517899,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 23,
-  "name": "Logging in Dice",
-  "description": "",
-  "id": "logging-dice;logging-in-dice;;4",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 5,
-      "name": "@login"
-    }
-  ]
-});
-formatter.step({
-  "line": 7,
-  "name": "Runmode is \"Y\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "I go to \"loginURL\" on \"Mozilla\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 9,
-  "name": "I enter \"search-field-keyword\" as \"Selenium Automation\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "I enter \"search-field-location\" as \"Austin, TX\"",
-  "matchedColumns": [
-    3
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "I click on FindJobs  \"FindJob\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "I click on JobsPage \"JobsPage2\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 13,
-  "name": "I click on contract checkbox \"contract_checkbox\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 14,
-  "name": "I click on contractw checkbox \"contractWCheckbox\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
-  "name": "I click on links_on_page \"links_on_page4\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Y",
-      "offset": 12
-    }
-  ],
-  "location": "Dice.runmode_is(String)"
-});
-formatter.result({
-  "duration": 1091236,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "loginURL",
-      "offset": 9
-    },
-    {
-      "val": "Mozilla",
-      "offset": 23
-    }
-  ],
-  "location": "Dice.i_go_to_on(String,String)"
-});
-formatter.result({
-  "duration": 16967315050,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "search-field-keyword",
-      "offset": 9
-    },
-    {
-      "val": "Selenium Automation",
-      "offset": 35
-    }
-  ],
-  "location": "Dice.i_enter_as(String,String)"
-});
-formatter.result({
-  "duration": 347285891,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "search-field-location",
-      "offset": 9
-    },
-    {
-      "val": "Austin, TX",
-      "offset": 36
-    }
-  ],
-  "location": "Dice.i_enter_as(String,String)"
-});
-formatter.result({
-  "duration": 503677723,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "FindJob",
-      "offset": 22
-    }
-  ],
-  "location": "Dice.i_click_on_FindJobs(String)"
-});
-formatter.result({
-  "duration": 3920558696,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "JobsPage2",
-      "offset": 21
-    }
-  ],
-  "location": "Dice.i_click_on1(String)"
-});
-formatter.result({
-  "duration": 407636169,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "contract_checkbox",
-      "offset": 30
-    }
-  ],
-  "location": "Dice.i_click_on_contract_checkbox(String)"
-});
-formatter.result({
-  "duration": 3772183665,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "contractWCheckbox",
-      "offset": 31
-    }
-  ],
-  "location": "Dice.i_click_on_contractw_checkbox(String)"
-});
-formatter.result({
-  "duration": 3737949750,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "links_on_page4",
-      "offset": 26
-    }
-  ],
-  "location": "Dice.i_click_on_links_on_page(String)"
-});
-formatter.result({
-  "duration": 104350490358,
-  "status": "passed"
-});
 });

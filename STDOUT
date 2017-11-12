@@ -15,39 +15,3 @@ Feature: Logging Dice
     Then I click on links_on_page "links_on_page4"
 
     Examples: 
-
-  @login
-  Scenario Outline: Logging in Dice                             # Dice.feature:21
-    Given Runmode is "Y"                                        # Dice.runmode_is(String)
-    Given I go to "loginURL" on "Mozilla"                       # Dice.i_go_to_on(String,String)
-    And I enter "search-field-keyword" as "Selenium Automation" # Dice.i_enter_as(String,String)
-    And I enter "search-field-location" as "Dallas,TX"          # Dice.i_enter_as(String,String)
-    And I click on FindJobs  "FindJob"                          # Dice.i_click_on_FindJobs(String)
-    When I click on JobsPage "JobsPage2"                        # Dice.i_click_on1(String)
-    Then I click on contract checkbox "contract_checkbox"       # Dice.i_click_on_contract_checkbox(String)
-    Then I click on contractw checkbox "contractWCheckbox"      # Dice.i_click_on_contractw_checkbox(String)
-    Then I click on links_on_page "links_on_page4"              # Dice.i_click_on_links_on_page(String)
-
-  @login
-  Scenario Outline: Logging in Dice                             # Dice.feature:22
-    Given Runmode is "Y"                                        # Dice.runmode_is(String)
-    Given I go to "loginURL" on "Mozilla"                       # Dice.i_go_to_on(String,String)
-    And I enter "search-field-keyword" as "Selenium Automation" # Dice.i_enter_as(String,String)
-    And I enter "search-field-location" as "naperville,IL"      # Dice.i_enter_as(String,String)
-    And I click on FindJobs  "FindJob"                          # Dice.i_click_on_FindJobs(String)
-    When I click on JobsPage "JobsPage2"                        # Dice.i_click_on1(String)
-    Then I click on contract checkbox "contract_checkbox"       # Dice.i_click_on_contract_checkbox(String)
-    Then I click on contractw checkbox "contractWCheckbox"      # Dice.i_click_on_contractw_checkbox(String)
-    Then I click on links_on_page "links_on_page4"              # Dice.i_click_on_links_on_page(String)
-
-  @login
-  Scenario Outline: Logging in Dice                             # Dice.feature:23
-    Given Runmode is "Y"                                        # Dice.runmode_is(String)
-    Given I go to "loginURL" on "Mozilla"                       # Dice.i_go_to_on(String,String)
-    And I enter "search-field-keyword" as "Selenium Automation" # Dice.i_enter_as(String,String)
-    And I enter "search-field-location" as "Austin, TX"         # Dice.i_enter_as(String,String)
-    And I click on FindJobs  "FindJob"                          # Dice.i_click_on_FindJobs(String)
-    When I click on JobsPage "JobsPage2"                        # Dice.i_click_on1(String)
-    Then I click on contract checkbox "contract_checkbox"       # Dice.i_click_on_contract_checkbox(String)
-    Then I click on contractw checkbox "contractWCheckbox"      # Dice.i_click_on_contractw_checkbox(String)
-    Then I click on links_on_page "links_on_page4"              # Dice.i_click_on_links_on_page(String)
