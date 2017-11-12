@@ -19,7 +19,7 @@ plugin={"html:Reports/cucumber-html-report"})*/
 
 //@RunWith(Cucumber.class)
 @CucumberOptions( strict = true
-				 ,features = "featuress", glue={"runner"}
+				 ,features = "features", glue={"runner"}
 				 ,plugin = {"pretty:STDOUT","html:Reports/cucumber-html-report/pretty.html",
 						    "json:Reports/cucumber-json-report/report.json",
 						    "com.cucumber.listener.ExtentCucumberFormatter:Reports/cucumber-extents-report/report.html"

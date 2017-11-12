@@ -1230,3 +1230,27 @@
 12/11/2017 16:30:23 devpinoyLogger Clicking on links_on_page4
 12/11/2017 16:30:49 devpinoyLogger Checking object presence C2H
 12/11/2017 16:31:39 devpinoyLogger Checking object presence crop to crop
+12/11/2017 18:20:35 devpinoyLogger  
+12/11/2017 18:20:35 devpinoyLogger Opening browser Mozilla
+12/11/2017 18:20:39 devpinoyLogger Naviating to https://www.dice.com
+12/11/2017 18:20:45 devpinoyLogger Typing in search-field-keyword
+12/11/2017 18:20:46 devpinoyLogger Typing in search-field-location
+12/11/2017 18:20:47 devpinoyLogger Clicking on FindJob
+12/11/2017 18:20:51 devpinoyLogger Clicking on JobsPage2
+12/11/2017 18:20:51 devpinoyLogger Clicking on contract_checkbox
+12/11/2017 18:20:54 devpinoyLogger Clicking on contractWCheckbox
+12/11/2017 18:20:59 devpinoyLogger Clicking on links_on_page4
+12/11/2017 18:21:24 devpinoyLogger Checking object presence C2H
+12/11/2017 18:22:14 devpinoyLogger Checking object presence crop to crop
+12/11/2017 18:22:43 devpinoyLogger  
+12/11/2017 18:22:43 devpinoyLogger Opening browser Mozilla
+12/11/2017 18:22:47 devpinoyLogger Naviating to https://www.dice.com
+12/11/2017 18:22:54 devpinoyLogger Typing in search-field-keyword
+12/11/2017 18:22:55 devpinoyLogger Typing in search-field-location
+12/11/2017 18:22:56 devpinoyLogger Clicking on FindJob
+12/11/2017 18:23:00 devpinoyLogger Clicking on JobsPage2
+12/11/2017 18:23:01 devpinoyLogger Clicking on contract_checkbox
+12/11/2017 18:23:05 devpinoyLogger Clicking on contractWCheckbox
+12/11/2017 18:23:09 devpinoyLogger Clicking on links_on_page4
+12/11/2017 18:23:35 devpinoyLogger Checking object presence C2H
+12/11/2017 18:24:25 devpinoyLogger Checking object presence crop to crop

@@ -72,7 +72,7 @@ public class Dice
 		}
 		
 		
-		@Thenn("^I click on contractw checkbox \"([^\"]*)\"$")
+		@Then("^I click on contractw checkbox \"([^\"]*)\"$")
 		public void i_click_on_contractw_checkbox(String objectName) throws Throwable {
 		    // Write code here that turns the phrase above into concrete actions
 		   selenium.click(objectName);
